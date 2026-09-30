@@ -58,7 +58,7 @@ export default function ProfessionalPropertyTaxPage() {
       subtitle: "Ward & property details",
       icon: MapPin,
       active:
-        "border-emerald-300 bg-gradient-to-br from-emerald-50 to-green-50 text-emerald-700 shadow-[0_10px_30px_rgba(16,185,129,0.14)]",
+        "border-emerald-300 bg-linear-to-br from-emerald-50 to-green-50 text-emerald-700 shadow-[0_10px_30px_rgba(16,185,129,0.14)]",
       iconBg: "bg-emerald-100 text-emerald-600",
     },
     {
@@ -67,7 +67,7 @@ export default function ProfessionalPropertyTaxPage() {
       subtitle: "Unique property number",
       icon: Hash,
       active:
-        "border-orange-300 bg-gradient-to-br from-orange-50 to-amber-50 text-orange-700 shadow-[0_10px_30px_rgba(249,115,22,0.14)]",
+        "border-orange-300 bg-linear-to-br from-orange-50 to-amber-50 text-orange-700 shadow-[0_10px_30px_rgba(249,115,22,0.14)]",
       iconBg: "bg-orange-100 text-orange-600",
     },
     {
@@ -82,7 +82,7 @@ export default function ProfessionalPropertyTaxPage() {
   ]
 
   return (
-    <main className="relative min-h-screen overflow-hidden bg-gradient-to-br from-[#f4fff8] via-white to-[#fff9ef] font-sans text-slate-900">
+    <main className="relative min-h-screen overflow-hidden bg-linear-to-br from-[#f4fff8] via-white to-[#fff9ef] font-sans text-slate-900">
       {/* =====================================================
           PREMIUM GRID BACKGROUND
       ====================================================== */}
@@ -114,7 +114,7 @@ export default function ProfessionalPropertyTaxPage() {
           {/* Government Badge */}
 
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-white/85 px-4 py-2 text-[10px] font-black tracking-[0.15em] text-emerald-700 uppercase shadow-sm backdrop-blur-xl transition-all duration-300 hover:-translate-y-0.5 hover:border-emerald-300 hover:shadow-lg hover:shadow-emerald-100">
-            <span className="flex h-6 w-6 items-center justify-center rounded-full bg-gradient-to-br from-emerald-500 to-green-600 text-white">
+            <span className="flex h-6 w-6 items-center justify-center rounded-full bg-linear-to-br from-emerald-500 to-green-600 text-white">
               <Landmark className="h-3.5 w-3.5" />
             </span>
 
@@ -185,14 +185,14 @@ export default function ProfessionalPropertyTaxPage() {
       <section className="relative z-10 mx-auto max-w-7xl px-4 pb-20 sm:px-6 lg:px-8">
         {/* Premium Glow */}
 
-        <div className="pointer-events-none absolute -inset-2 rounded-[38px] bg-gradient-to-r from-emerald-400/20 via-orange-300/10 to-blue-400/20 blur-2xl" />
+        <div className="pointer-events-none absolute -inset-2 rounded-[38px] bg-linear-to-r from-emerald-400/20 via-orange-300/10 to-blue-400/20 blur-2xl" />
 
         <div className="relative overflow-hidden rounded-[32px] border border-white/80 bg-white/90 shadow-[0_25px_70px_rgba(15,80,50,0.10)] backdrop-blur-2xl">
           {/* =================================================
               CARD TOP HEADER
           ================================================== */}
 
-          <div className="relative overflow-hidden border-b border-slate-100 bg-gradient-to-r from-[#f1fff7] via-white to-[#fff8ed] px-5 py-6 sm:px-8">
+          <div className="relative overflow-hidden border-b border-slate-100 bg-linear-to-r from-[#f1fff7] via-white to-[#fff8ed] px-5 py-6 sm:px-8">
             {/* Decorative circles */}
 
             <div className="pointer-events-none absolute -right-10 -top-16 h-44 w-44 rounded-full bg-emerald-300/10 blur-2xl" />
@@ -501,7 +501,7 @@ export default function ProfessionalPropertyTaxPage() {
               SERVICE FOOTER
           ================================================== */}
 
-          <div className="grid grid-cols-1 border-t border-slate-100 bg-gradient-to-r from-emerald-50/60 via-white to-orange-50/60 sm:grid-cols-3">
+          <div className="grid grid-cols-1 border-t border-slate-100 bg-linear-to-r from-emerald-50/60 via-white to-orange-50/60 sm:grid-cols-3">
             <div className="flex items-center gap-3 border-b border-slate-100 px-5 py-4 sm:border-r sm:border-b-0">
               <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-100 text-emerald-600">
                 <Search className="h-4 w-4" />
@@ -558,7 +558,7 @@ export default function ProfessionalPropertyTaxPage() {
       ====================================================== */}
 
       <section className="relative z-10 mx-auto max-w-7xl px-4 pb-20 sm:px-6 lg:px-8">
-        <div className="relative overflow-hidden rounded-[28px] border border-emerald-100 bg-gradient-to-r from-emerald-600 via-green-600 to-teal-600 p-6 text-white shadow-xl shadow-emerald-200 md:p-8">
+        <div className="relative overflow-hidden rounded-[28px] border border-emerald-100 bg-linear-to-r from-emerald-600 via-green-600 to-teal-600 p-6 text-white shadow-xl shadow-emerald-200 md:p-8">
           {/* Pattern */}
 
           <div
@@ -598,7 +598,7 @@ export default function ProfessionalPropertyTaxPage() {
               className="group inline-flex shrink-0 items-center justify-center gap-2 rounded-xl bg-white px-5 py-3 text-xs font-black text-emerald-700 shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-emerald-50 hover:shadow-xl"
             >
               <Phone className="h-4 w-4 transition-transform group-hover:rotate-12" />
-              <span>+91 81890 77944</span>
+              <span>+91 xxxxx xxxxx</span>
             </a>
           </div>
         </div>

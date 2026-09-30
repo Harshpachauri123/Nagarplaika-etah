@@ -86,7 +86,7 @@ export default function PublicGrievance() {
   }
 
   return (
-    <main className="relative min-h-screen overflow-hidden bg-gradient-to-br from-[#f0fff6] via-white to-[#f7fff9] px-4 py-16 font-sans md:px-8">
+    <main className="relative min-h-screen overflow-hidden bg-linear-to-br from-[#f0fff6] via-white to-[#f7fff9] px-4 py-16 font-sans md:px-8">
       {/* Background Pattern */}
       <div
         aria-hidden="true"
@@ -146,7 +146,7 @@ export default function PublicGrievance() {
             transition={{ duration: 0.55 }}
             className="group relative flex flex-col justify-between overflow-hidden rounded-[28px] border border-emerald-100 bg-white/90 p-8 shadow-[0_20px_60px_rgba(16,185,129,0.08)] backdrop-blur-xl transition-all duration-500 hover:-translate-y-1 hover:border-emerald-200 hover:shadow-[0_25px_70px_rgba(16,185,129,0.14)] md:p-10"
           >
-            <div className="absolute left-0 top-0 h-full w-1.5 bg-gradient-to-b from-emerald-400 via-teal-500 to-lime-400" />
+            <div className="absolute left-0 top-0 h-full w-1.5 bg-linear-to-b from-emerald-400 via-teal-500 to-lime-400" />
 
             <div className="relative z-10 space-y-5">
               <div className="inline-flex items-center gap-2 rounded-xl border border-emerald-100 bg-emerald-50 px-3 py-2 text-[10px] font-black uppercase tracking-wider text-emerald-700">
@@ -180,7 +180,7 @@ export default function PublicGrievance() {
             <Button
               type="button"
               onClick={scrollToForm}
-              className="relative z-10 mt-8 flex w-fit cursor-pointer items-center gap-2 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 px-6 py-3 text-xs font-black uppercase tracking-wider text-white shadow-lg shadow-emerald-500/20 transition-all duration-300 hover:-translate-y-1 hover:from-emerald-600 hover:to-teal-600"
+              className="relative z-10 mt-8 flex w-fit cursor-pointer items-center gap-2 rounded-xl bg-linear-to-r from-emerald-500 to-teal-500 px-6 py-3 text-xs font-black uppercase tracking-wider text-white shadow-lg shadow-emerald-500/20 transition-all duration-300 hover:-translate-y-1 hover:from-emerald-600 hover:to-teal-600"
             >
               <ShieldAlert className="h-4 w-4" />
               Submit Your Grievance
@@ -201,7 +201,7 @@ export default function PublicGrievance() {
               alt="Public grievance redressal portal"
               className="h-full w-full object-cover opacity-90 transition-transform duration-1000 group-hover:scale-105"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#07352b]/95 via-[#07352b]/35 to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-t from-[#07352b]/95 via-[#07352b]/35 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-7">
               <h3 className="font-serif text-xl font-black text-white md:text-2xl">
                 Grievance Redressal
@@ -216,7 +216,7 @@ export default function PublicGrievance() {
           id="grievance-form-section"
           className="scroll-mt-24 overflow-hidden rounded-[28px] border border-emerald-100 bg-white/95 shadow-xl backdrop-blur-xl"
         >
-          <div className="bg-gradient-to-r from-[#123d32] via-[#155b49] to-[#087f62] px-7 py-6 text-white md:px-9">
+          <div className="bg-linear-to-r from-[#123d32] via-[#155b49] to-[#087f62] px-7 py-6 text-white md:px-9">
             <h2 className="text-base font-black uppercase tracking-wider md:text-lg">
               Grievance Submission Form
             </h2>
@@ -333,7 +333,7 @@ export default function PublicGrievance() {
                       name="incident_address"
                       required
                       type="text"
-                      placeholder="e.g. Near Giriraj Ji Temple, Goverdhan"
+                      placeholder="e.g. Near Giriraj Ji Temple , Etah"
                       className="h-11 rounded-xl border-slate-200 bg-white px-4 text-xs font-semibold shadow-sm"
                     />
                   </FormField>
@@ -360,7 +360,7 @@ export default function PublicGrievance() {
                     <Button
                       type="submit"
                       disabled={isPending}
-                      className="flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 px-6 py-2.5 text-xs font-black text-white shadow-lg"
+                      className="flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-emerald-500 to-teal-500 px-6 py-2.5 text-xs font-black text-white shadow-lg"
                     >
                       <span>{isPending ? "Submitting..." : "Submit Official Grievance"}</span>
                       <Send className="h-4 w-4" />

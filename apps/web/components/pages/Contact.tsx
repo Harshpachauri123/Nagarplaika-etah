@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <div className="w-full bg-gray-50">
       {/* Page Header */}
-      <section className="w-full bg-gradient-to-r from-blue-700 to-blue-900 px-4 py-12 text-white">
+      <section className="w-full bg-linear-to-r from-blue-700 to-blue-900 px-4 py-12 text-white">
         <div className="mx-auto max-w-7xl">
           <h1 className="mb-2 text-4xl font-bold">
             Contact Us

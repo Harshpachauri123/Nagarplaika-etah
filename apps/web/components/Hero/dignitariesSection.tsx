@@ -75,7 +75,7 @@ export default function DignitariesSection() {
           {dignitariesList.map((item, index) => (
             <div
               key={item.id}
-              className={`group relative flex flex-col items-center p-6 text-center transition-all duration-300 hover:bg-gradient-to-b hover:from-sky-50/60 hover:to-transparent sm:flex-row sm:text-left ${
+              className={`group relative flex flex-col items-center p-6 text-center transition-all duration-300 hover:bg-linear-to-b hover:from-sky-50/60 hover:to-transparent sm:flex-row sm:text-left ${
                 index !== dignitariesList.length - 1
                   ? "border-b border-sky-100 lg:border-r lg:border-b-0"
                   : ""

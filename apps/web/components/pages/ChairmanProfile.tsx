@@ -60,7 +60,7 @@ export default function ChairmanProfile() {
                 {/* Info */}
                 <div className="p-8 flex flex-col justify-center">
                   <h2 className="text-3xl font-bold text-blue-900 mb-1">
-                    Shri Smt. Sudha Gupta
+                   Smt. Sudha Gupta
                   </h2>
                   <p className="text-lg text-red-600 font-semibold mb-4">
                     Honorable Chairman
@@ -93,7 +93,7 @@ export default function ChairmanProfile() {
             <div className="mb-8">
               <h3 className="text-2xl font-bold text-blue-900 mb-4">Biography</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Shri Smt. Sudha Gupta has been serving as the Honorable Chairman of
+                Smt. Sudha Gupta has been serving as the Honorable Chairman of
                 Nagar Palika Parishad, Etah since 2020. With over 15 years of
                 experience in municipal governance and public administration, she has
                 demonstrated exceptional commitment to citizen welfare and transparent
@@ -151,7 +151,7 @@ export default function ChairmanProfile() {
                 we build a stronger, more prosperous community.&quot;
               </blockquote>
               <p className="text-sm text-gray-600 mt-4">
-                — Shri Smt. Sudha Gupta
+                — Smt. Sudha Gupta
               </p>
             </div>
 
@@ -159,7 +159,7 @@ export default function ChairmanProfile() {
             <div>
               <h4 className="font-bold text-gray-900 mb-4">Vision 2026</h4>
               <div className="space-y-3">
-                <div className="bg-gradient-to-br from-green-50 to-green-100 border border-green-300 rounded-lg p-4">
+                <div className="bg-linear-to-br from-green-50 to-green-100 border border-green-300 rounded-lg p-4">
                   <Leaf className="w-8 h-8 text-green-700 mb-2" />
                   <h5 className="font-semibold text-gray-900 text-sm mb-1">
                     Pristine Etah
@@ -169,7 +169,7 @@ export default function ChairmanProfile() {
                   </p>
                 </div>
 
-                <div className="bg-gradient-to-br from-blue-50 to-blue-100 border border-blue-300 rounded-lg p-4">
+                <div className="bg-linear-to-br from-blue-50 to-blue-100 border border-blue-300 rounded-lg p-4">
                   <Zap className="w-8 h-8 text-blue-700 mb-2" />
                   <h5 className="font-semibold text-gray-900 text-sm mb-1">
                     Modern Infrastructure
@@ -179,7 +179,7 @@ export default function ChairmanProfile() {
                   </p>
                 </div>
 
-                <div className="bg-gradient-to-br from-purple-50 to-purple-100 border border-purple-300 rounded-lg p-4">
+                <div className="bg-linear-to-br from-purple-50 to-purple-100 border border-purple-300 rounded-lg p-4">
                   <Zap className="w-8 h-8 text-purple-700 mb-2" />
                   <h5 className="font-semibold text-gray-900 text-sm mb-1">
                     Digital Governance

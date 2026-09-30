@@ -34,7 +34,7 @@ export default function Schemes() {
   return (
     <div className="w-full">
       {/* Header Section */}
-      <section className="w-full bg-gradient-to-r from-blue-700 to-blue-900 text-white py-12 px-4">
+      <section className="w-full bg-linear-to-r from-blue-700 to-blue-900 text-white py-12 px-4">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Major Government Schemes</h1>
           <p className="text-lg text-blue-100 max-w-2xl">

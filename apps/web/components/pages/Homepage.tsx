@@ -96,7 +96,7 @@ export default function HeroSlider() {
               className="absolute inset-0 h-full w-full bg-cover bg-center bg-no-repeat brightness-90 filter"
               style={{ backgroundImage: `url(${currentSlide?.bgImage})` }}
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/40 to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-r from-slate-950/90 via-slate-950/40 to-transparent" />
             <div className="absolute inset-0 bg-black/20" />
           </motion.div>
         </AnimatePresence>
@@ -156,7 +156,7 @@ export default function HeroSlider() {
             >
               <a
                 href={currentSlide?.primaryTarget}
-                className="group inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-amber-500 to-orange-500 px-5 py-2.5 text-xs font-extrabold tracking-wider text-slate-950 uppercase shadow-lg shadow-orange-500/20 transition-all duration-300 hover:scale-105 active:scale-95 md:text-sm"
+                className="group inline-flex items-center gap-2 rounded-lg bg-linear-to-r from-amber-500 to-orange-500 px-5 py-2.5 text-xs font-extrabold tracking-wider text-slate-950 uppercase shadow-lg shadow-orange-500/20 transition-all duration-300 hover:scale-105 active:scale-95 md:text-sm"
               >
                 <span>{currentSlide?.primaryAction}</span>
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />

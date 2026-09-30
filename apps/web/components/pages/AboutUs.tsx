@@ -52,7 +52,7 @@ export default function AboutUs() {
           minHeight: '320px',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/95 to-blue-600/60 z-10" />
+        <div className="absolute inset-0 bg-linear-to-r from-blue-600/95 to-blue-600/60 z-10" />
         <div className="relative z-20 max-w-7xl mx-auto px-4 w-full py-16">
           <div className="text-white max-w-2xl">
             <p className="text-sm font-semibold mb-2 opacity-90">Established 1868</p>

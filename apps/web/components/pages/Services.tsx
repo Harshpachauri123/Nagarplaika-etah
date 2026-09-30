@@ -106,7 +106,7 @@ export default function Services() {
         </div>
 
         {/* Call to Action Section */}
-        <section className="mt-16 bg-gradient-to-r from-blue-700 to-blue-900 rounded-lg p-12 text-white text-center">
+        <section className="mt-16 bg-linear-to-r from-blue-700 to-blue-900 rounded-lg p-12 text-white text-center">
           <h2 className="text-3xl font-bold mb-4">Need Help?</h2>
           <p className="text-lg text-blue-100 mb-6 max-w-2xl mx-auto">
             Our dedicated team is here to assist you with any queries or service-related information.

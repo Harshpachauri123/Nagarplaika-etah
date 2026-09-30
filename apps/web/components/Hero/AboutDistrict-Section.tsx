@@ -15,7 +15,7 @@ export const AboutEtahSection: React.FC = () => {
   const localGraphicUrl = "https://cdn.s3waas.gov.in/master/uploads/2017/04/2017053023.png";
 
   return (
-    <section className="relative w-full bg-gradient-to-br from-sky-50/60 via-indigo-50/30 to-emerald-50/40 py-20 px-6 md:px-14 border-b border-sky-100 font-sans selection:bg-blue-600 selection:text-white antialiased overflow-hidden">
+    <section className="relative w-full bg-linear-to-br from-sky-50/60 via-indigo-50/30 to-emerald-50/40 py-20 px-6 md:px-14 border-b border-sky-100 font-sans selection:bg-blue-600 selection:text-white antialiased overflow-hidden">
       
       {/* Colorful Light Background Ambient Glows */}
       <div className="absolute -top-20 right-10 w-[450px] h-[450px] bg-sky-300/20 rounded-full blur-[100px] pointer-events-none" />
@@ -54,7 +54,7 @@ export const AboutEtahSection: React.FC = () => {
             
             {/* Overview Card */}
             <div className="group relative bg-white/90 backdrop-blur-md rounded-3xl p-8 border border-sky-100 shadow-sm hover:shadow-xl hover:border-blue-300 transition-all duration-300">
-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-t-3xl opacity-0 group-hover:opacity-100 transition-opacity" />
+              <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-blue-500 to-indigo-600 rounded-t-3xl opacity-0 group-hover:opacity-100 transition-opacity" />
               
               <h4 className="text-sm font-extrabold text-blue-900 uppercase tracking-wider mb-4 flex items-center gap-2.5">
                 <span className="w-2 h-5 bg-blue-600 rounded-full shadow-xs" />
@@ -78,7 +78,7 @@ export const AboutEtahSection: React.FC = () => {
 
             {/* Infrastructure Card */}
             <div className="group relative bg-white/90 backdrop-blur-md rounded-3xl p-8 border border-emerald-100 shadow-sm hover:shadow-xl hover:border-emerald-300 transition-all duration-300">
-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-t-3xl opacity-0 group-hover:opacity-100 transition-opacity" />
+              <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-emerald-500 to-teal-600 rounded-t-3xl opacity-0 group-hover:opacity-100 transition-opacity" />
 
               <h4 className="text-sm font-extrabold text-emerald-900 uppercase tracking-wider mb-4 flex items-center gap-2.5">
                 <span className="w-2 h-5 bg-emerald-600 rounded-full shadow-xs" />
@@ -144,7 +144,7 @@ export const AboutEtahSection: React.FC = () => {
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                <div className="absolute inset-0 bg-linear-to-t from-slate-950/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
                   <span className="text-white text-xs font-semibold tracking-wide flex items-center gap-1">
                     सत्यापित शासकीय संपत्ति <ArrowUpRight className="w-3.5 h-3.5" />
                   </span>
@@ -153,7 +153,7 @@ export const AboutEtahSection: React.FC = () => {
             </div>
 
             {/* Enterprise Dashboard Box */}
-            <div className="bg-gradient-to-b from-slate-900 to-blue-950 text-white rounded-3xl p-6 shadow-2xl border border-blue-900/50 relative overflow-hidden">
+            <div className="bg-linear-to-b from-slate-900 to-blue-950 text-white rounded-3xl p-6 shadow-2xl border border-blue-900/50 relative overflow-hidden">
               
               <div className="absolute top-0 right-0 w-40 h-40 bg-sky-400/10 rounded-full blur-2xl pointer-events-none" />
 
@@ -188,7 +188,7 @@ export const AboutEtahSection: React.FC = () => {
                   <span className="font-extrabold text-sky-300 bg-white/10 px-2 py-0.5 rounded-md">894 ♀ / 1000 ♂</span>
                 </div>
                 <div className="w-full bg-white/10 rounded-full h-2.5 overflow-hidden p-0.5 border border-white/10">
-                  <div className="bg-gradient-to-r from-sky-400 to-indigo-400 h-full rounded-full w-[89.4%] shadow-sm" />
+                  <div className="bg-linear-to-r from-sky-400 to-indigo-400 h-full rounded-full w-[89.4%] shadow-sm" />
                 </div>
               </div>
 

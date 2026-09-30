@@ -62,7 +62,7 @@ export default function Gallery() {
   return (
     <div className="w-full bg-gray-50 min-h-screen pb-12">
       {/* Header Banner */}
-      <section className="bg-gradient-to-r from-blue-700 to-blue-900 text-white py-12 px-4 mb-12">
+      <section className="bg-linear-to-r from-blue-700 to-blue-900 text-white py-12 px-4 mb-12">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div>
             <h1 className="text-4xl font-bold mb-2">
@@ -101,10 +101,10 @@ export default function Gallery() {
           {filteredItems.map((item, idx) => (
             <div
               key={idx}
-              className="group relative h-72 bg-gradient-to-br from-blue-900 to-blue-950 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 cursor-pointer"
+              className="group relative h-72 bg-linear-to-br from-blue-900 to-blue-950 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 cursor-pointer"
             >
               {/* Fallback Placeholder Container (Sits behind the image) */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-blue-700 to-blue-900 p-6 text-center">
+              <div className="absolute inset-0 flex flex-col items-center justify-center bg-linear-to-br from-blue-700 to-blue-900 p-6 text-center">
                 <ImageIcon className="w-12 h-12 text-blue-300/40 mb-2" />
                 <span className="text-xs text-blue-200/50 font-medium">Loading Visual Reference...</span>
               </div>
@@ -122,7 +122,7 @@ export default function Gallery() {
               />
 
               {/* Dark Gradient Overlay for consistent, crisp text readability */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent" />
 
               {/* Title and Description Content */}
               <div className="absolute bottom-0 inset-x-0 p-5 z-10">

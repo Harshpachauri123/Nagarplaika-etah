@@ -102,7 +102,7 @@ const DepartmentsSection = () => {
                 className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500 ease-out"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-slate-900/20 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-slate-900/60 via-slate-900/20 to-transparent" />
               
               {/* Badge Over Image */}
               <span className="absolute bottom-3 left-4 text-white font-semibold text-sm bg-blue-600/90 px-3 py-1 rounded-md backdrop-blur-xs">
